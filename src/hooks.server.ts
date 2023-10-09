@@ -24,11 +24,5 @@ export const handle = SvelteKitAuth({
   },
   providers: [
     GitHub(githubCredentials)
-  ],
-  callbacks: {
-    session: ({ session }) => {
-      console.log({ session })
-      return session
-    }
-  }
+  ]
 });
