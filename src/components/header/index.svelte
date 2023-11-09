@@ -2,7 +2,7 @@
   import { page } from '$app/stores'
 </script>
 
-<header class='flex items-center justify-between px-20 py-8 font-medium'>
+<header class='flex items-center justify-between p-8 lg:px-20 font-medium'>
   <a href='/'>SvelteKit Auth</a>
 
   {#if $page.data.session?.user}
